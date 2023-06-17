@@ -1,0 +1,11 @@
+[package]
+name = "proc_macro_template_example"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc_macro_template_example_core = { path = "../proc_macro_template_example_core" }
+proc-macro2 = "1.0.60"
